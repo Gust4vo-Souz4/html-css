@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1{ /*box-level*/
+            background-color: lightgray;
+            height: 74px;
+            width: 300px;
+            
+            border: 5px solid black;
+            
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+
+            outline: 3px dashed #7a7a7a;
+
+            /*
+            Border, padding e margin estão em formas resumidas.
+            Ex.: margin não resumido: margin-top, margin-right, margin-bottom, margin-left.
+            */
+        }
+        a{ /*inline-level*/
+            background-color: lightblue;
+            width: 200px;
+            
+            border-radius: 6px;
+
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os "<a href="#">links são exemplos de caixas inline-level</a>".</p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <P>Este vídeo está hospedado no meu próprio servidor.</P>
+
+    <video width="560" poster="imagens/natureza-500.jpg" controls>
+       <source src="videos/meu-video-1.mp4" type="video/mp4">
+       <source src="videos/meu-video-2.webm" type="video/webm">
+       <source src="videos/meu-video-3.ogv" type="video/ogg">
+       <p>
+        Seu navegador não suporta o elemento de reprodução do vídeo.
+       </p>
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P8DQjFX8OB8" title="Pixel Animation - Ocean Wave Loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
